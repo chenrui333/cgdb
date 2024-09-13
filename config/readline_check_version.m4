@@ -86,7 +86,7 @@ AC_CACHE_VAL(ac_cv_rl_version,
 #include <stdlib.h>
 #include <readline/readline.h>
 
-main()
+int main()
 {
 	FILE *fp;
 	fp = fopen("conftest.rlv", "w");
@@ -183,4 +183,3 @@ if test "x$is_history_header_found" = "xfalse"; then
   fi
 fi
 ])
-
